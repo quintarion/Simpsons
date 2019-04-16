@@ -3,7 +3,10 @@ import logo from './logo.svg';
 import './App.css';
 import Quote from "./Quote";
 //import Lamp from "./Lamp";  
-//import Work from "./Work";                    
+//import Work from "./Work";
+//import Form from "./components/Form"//   
+//import FormControled from "./components/FormControled" 
+import Api from './Api';                
 
 class App extends Component {
   state = {
@@ -41,6 +44,13 @@ render() { //le rendu
       character="Ralph Wiggum"
       image="https://cdn.glitch.com/3c3ffadc-3406-4440-bb95-d40ec8fcde72%2FRalphWiggum.png?1497567511523" alt=""
     />
+    {/* <div>
+      <Form />
+      <FormControled />
+    </div> */}
+    <div>
+      <Api />
+    </div>
     </div>
     );
   }
